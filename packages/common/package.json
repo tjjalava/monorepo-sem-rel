@@ -1,5 +1,9 @@
 {
-  "name": "common",
+  "name": "@tjjalava/monorepo-common",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjjalava/monorepo-sem-rel.git"
+  },
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",

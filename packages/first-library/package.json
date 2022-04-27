@@ -1,5 +1,9 @@
 {
-  "name": "first-library",
+  "name": "@tjjalava/first-library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjjalava/monorepo-sem-rel.git"
+  },
   "version": "1.0.0",
   "main": "./dist/first-library/src/index.js",
   "license": "MIT",
@@ -16,7 +20,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.2.1",
-    "common": "workspace:*",
+    "@tjjalava/monorepo-common": "workspace:*",
     "rollup": "^2.70.2"
   }
 }
