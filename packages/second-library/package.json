@@ -1,0 +1,22 @@
+{
+  "name": "second-library",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "exports": {
+    ".": "./dist/second-library/src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "scripts": {
+    "prepublishOnly": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "common": "workspace:*",
+    "rollup": "^2.70.2"
+  }
+}

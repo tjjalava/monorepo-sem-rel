@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-sem-rel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "multi-semantic-release": "^2.12.0"
+  }
+}
