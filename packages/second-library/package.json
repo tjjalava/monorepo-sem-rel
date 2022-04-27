@@ -16,7 +16,7 @@
     "package.json"
   ],
   "scripts": {
-    "prepublishOnly": "rollup -c"
+    "prepublishOnly": "yarn rollup -c"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.2.1",
