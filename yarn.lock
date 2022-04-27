@@ -684,12 +684,12 @@ __metadata:
   resolution: "@tjjalava/first-library@workspace:packages/first-library"
   dependencies:
     "@rollup/plugin-node-resolve": ^13.2.1
-    "@tjjalava/monorepo-common": "workspace:*"
+    "@tjjalava/monorepo-common": 1.0.0
     rollup: ^2.70.2
   languageName: unknown
   linkType: soft
 
-"@tjjalava/monorepo-common@workspace:*, @tjjalava/monorepo-common@workspace:packages/common":
+"@tjjalava/monorepo-common@1.0.0, @tjjalava/monorepo-common@workspace:packages/common":
   version: 0.0.0-use.local
   resolution: "@tjjalava/monorepo-common@workspace:packages/common"
   languageName: unknown
@@ -710,7 +710,7 @@ __metadata:
   resolution: "@tjjalava/second-library@workspace:packages/second-library"
   dependencies:
     "@rollup/plugin-node-resolve": ^13.2.1
-    "@tjjalava/monorepo-common": "workspace:*"
+    "@tjjalava/monorepo-common": 1.0.0
     rollup: ^2.70.2
   languageName: unknown
   linkType: soft
