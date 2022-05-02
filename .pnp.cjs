@@ -49,7 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@semantic-release/git", "virtual:10ac1a84683bbe14c5a0ebcaf5b0db28bd78aedda019f222406d5394d97d8361783247d5b024984fb6adac90727de6ebe2d66a5b9236a08dca2fa067565169bd#npm:10.0.1"],\
-            ["multi-semantic-release", "npm:2.12.0"],\
+            ["multi-semantic-release", "file:../multi-semantic-release#../multi-semantic-release::hash=93a79e&locator=%40tjjalava%2Fmonorepo-sem-rel%40workspace%3A."],\
             ["semantic-release", "npm:19.0.2"]\
           ],\
           "linkType": "SOFT"\
@@ -962,7 +962,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@tjjalava/monorepo-sem-rel", "workspace:."],\
             ["@semantic-release/git", "virtual:10ac1a84683bbe14c5a0ebcaf5b0db28bd78aedda019f222406d5394d97d8361783247d5b024984fb6adac90727de6ebe2d66a5b9236a08dca2fa067565169bd#npm:10.0.1"],\
-            ["multi-semantic-release", "npm:2.12.0"],\
+            ["multi-semantic-release", "file:../multi-semantic-release#../multi-semantic-release::hash=93a79e&locator=%40tjjalava%2Fmonorepo-sem-rel%40workspace%3A."],\
             ["semantic-release", "npm:19.0.2"]\
           ],\
           "linkType": "SOFT"\
@@ -3658,10 +3658,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["multi-semantic-release", [\
-        ["npm:2.12.0", {\
-          "packageLocation": "./.yarn/cache/multi-semantic-release-npm-2.12.0-5a7842ed4d-3c96c87fbf.zip/node_modules/multi-semantic-release/",\
+        ["file:../multi-semantic-release#../multi-semantic-release::hash=93a79e&locator=%40tjjalava%2Fmonorepo-sem-rel%40workspace%3A.", {\
+          "packageLocation": "./.yarn/unplugged/multi-semantic-release-file-62ab190716/node_modules/multi-semantic-release/",\
           "packageDependencies": [\
-            ["multi-semantic-release", "npm:2.12.0"],\
+            ["multi-semantic-release", "file:../multi-semantic-release#../multi-semantic-release::hash=93a79e&locator=%40tjjalava%2Fmonorepo-sem-rel%40workspace%3A."],\
             ["@manypkg/get-packages", "npm:1.1.3"],\
             ["blork", "npm:9.3.0"],\
             ["cosmiconfig", "npm:7.0.1"],\

@@ -684,12 +684,12 @@ __metadata:
   resolution: "@tjjalava/first-library@workspace:packages/first-library"
   dependencies:
     "@rollup/plugin-node-resolve": ^13.2.1
-    "@tjjalava/monorepo-common": "*"
+    "@tjjalava/monorepo-common": "workspace:*"
     rollup: ^2.70.2
   languageName: unknown
   linkType: soft
 
-"@tjjalava/monorepo-common@*, @tjjalava/monorepo-common@workspace:packages/common":
+"@tjjalava/monorepo-common@workspace:*, @tjjalava/monorepo-common@workspace:packages/common":
   version: 0.0.0-use.local
   resolution: "@tjjalava/monorepo-common@workspace:packages/common"
   languageName: unknown
@@ -700,7 +700,7 @@ __metadata:
   resolution: "@tjjalava/monorepo-sem-rel@workspace:."
   dependencies:
     "@semantic-release/git": ^10.0.1
-    multi-semantic-release: ^2.12.0
+    multi-semantic-release: "file:../multi-semantic-release"
     semantic-release: ^19.0.2
   languageName: unknown
   linkType: soft
@@ -710,7 +710,7 @@ __metadata:
   resolution: "@tjjalava/second-library@workspace:packages/second-library"
   dependencies:
     "@rollup/plugin-node-resolve": ^13.2.1
-    "@tjjalava/monorepo-common": "*"
+    "@tjjalava/monorepo-common": "workspace:*"
     rollup: ^2.70.2
   languageName: unknown
   linkType: soft
@@ -3089,9 +3089,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"multi-semantic-release@npm:^2.12.0":
-  version: 2.12.0
-  resolution: "multi-semantic-release@npm:2.12.0"
+"multi-semantic-release@file:../multi-semantic-release::locator=%40tjjalava%2Fmonorepo-sem-rel%40workspace%3A.":
+  version: 0.0.0-semantically-released
+  resolution: "multi-semantic-release@file:../multi-semantic-release#../multi-semantic-release::hash=93a79e&locator=%40tjjalava%2Fmonorepo-sem-rel%40workspace%3A."
   dependencies:
     "@manypkg/get-packages": ^1.1.3
     blork: ^9.3.0
@@ -3112,8 +3112,8 @@ __metadata:
     stream-buffers: ^3.0.2
     unixify: ^1.0.0
   bin:
-    multi-semantic-release: bin/cli.js
-  checksum: 3c96c87fbfa9ec76cb1472b4abe2c9ccf0ed43249c5a03e9104f06ac55fcb4e5af04d5981517dd0d79d858448e72e51c7316edf367f0b72780fc1ebc7e0c045a
+    multi-semantic-release: ./bin/cli.js
+  checksum: 61426261619bdcdfc2343fa4282da1a05d9bc194b10f683a627f24d422ae14b24bd38d46c5a3a03dc3bef436e9dea90c8c8ebb9729924e2e9f89d48ac83b98f0
   languageName: node
   linkType: hard
 
