@@ -20,7 +20,10 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.2.1",
-    "@tjjalava/monorepo-common": "1.0.2",
+    "@tjjalava/monorepo-common": "workspace:*",
     "rollup": "^2.70.2"
+  },
+  "resolutions": {
+    "@tjjalava/monorepo-common": "workspace:packages/common"
   }
 }
