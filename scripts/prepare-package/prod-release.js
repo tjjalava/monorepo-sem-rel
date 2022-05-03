@@ -10,7 +10,7 @@ const rawData = fs.readFileSync(path.resolve('./package.json'))
 const packageJson = JSON.parse(rawData)
 
 delete packageJson.scripts
-delete packageJson.devDependencies['@yleisradio/livefeed-common']
+delete packageJson.devDependencies
 
 const modifiedPackageJson = JSON.stringify(packageJson, null, 2)
 
