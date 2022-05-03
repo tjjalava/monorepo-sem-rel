@@ -48,8 +48,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@semantic-release/changelog", "virtual:10ac1a84683bbe14c5a0ebcaf5b0db28bd78aedda019f222406d5394d97d8361783247d5b024984fb6adac90727de6ebe2d66a5b9236a08dca2fa067565169bd#npm:6.0.1"],\
             ["@semantic-release/git", "virtual:10ac1a84683bbe14c5a0ebcaf5b0db28bd78aedda019f222406d5394d97d8361783247d5b024984fb6adac90727de6ebe2d66a5b9236a08dca2fa067565169bd#npm:10.0.1"],\
-            ["multi-semantic-release", "file:../multi-semantic-release#../multi-semantic-release::hash=35c80a&locator=%40tjjalava%2Fmonorepo-sem-rel%40workspace%3A."],\
+            ["multi-semantic-release", "npm:2.12.0"],\
             ["semantic-release", "npm:19.0.2"]\
           ],\
           "linkType": "SOFT"\
@@ -629,6 +630,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@semantic-release/changelog", [\
+        ["npm:6.0.1", {\
+          "packageLocation": "./.yarn/cache/@semantic-release-changelog-npm-6.0.1-8829cd6462-a7c999f202.zip/node_modules/@semantic-release/changelog/",\
+          "packageDependencies": [\
+            ["@semantic-release/changelog", "npm:6.0.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:10ac1a84683bbe14c5a0ebcaf5b0db28bd78aedda019f222406d5394d97d8361783247d5b024984fb6adac90727de6ebe2d66a5b9236a08dca2fa067565169bd#npm:6.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/@semantic-release-changelog-virtual-629a2737a1/0/cache/@semantic-release-changelog-npm-6.0.1-8829cd6462-a7c999f202.zip/node_modules/@semantic-release/changelog/",\
+          "packageDependencies": [\
+            ["@semantic-release/changelog", "virtual:10ac1a84683bbe14c5a0ebcaf5b0db28bd78aedda019f222406d5394d97d8361783247d5b024984fb6adac90727de6ebe2d66a5b9236a08dca2fa067565169bd#npm:6.0.1"],\
+            ["@semantic-release/error", "npm:3.0.0"],\
+            ["@types/semantic-release", null],\
+            ["aggregate-error", "npm:3.1.0"],\
+            ["fs-extra", "npm:9.1.0"],\
+            ["lodash", "npm:4.17.21"],\
+            ["semantic-release", "npm:19.0.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/semantic-release",\
+            "semantic-release"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@semantic-release/commit-analyzer", [\
         ["npm:8.0.1", {\
           "packageLocation": "./.yarn/cache/@semantic-release-commit-analyzer-npm-8.0.1-b02805c6af-94ac803553.zip/node_modules/@semantic-release/commit-analyzer/",\
@@ -961,8 +988,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@tjjalava/monorepo-sem-rel", "workspace:."],\
+            ["@semantic-release/changelog", "virtual:10ac1a84683bbe14c5a0ebcaf5b0db28bd78aedda019f222406d5394d97d8361783247d5b024984fb6adac90727de6ebe2d66a5b9236a08dca2fa067565169bd#npm:6.0.1"],\
             ["@semantic-release/git", "virtual:10ac1a84683bbe14c5a0ebcaf5b0db28bd78aedda019f222406d5394d97d8361783247d5b024984fb6adac90727de6ebe2d66a5b9236a08dca2fa067565169bd#npm:10.0.1"],\
-            ["multi-semantic-release", "file:../multi-semantic-release#../multi-semantic-release::hash=35c80a&locator=%40tjjalava%2Fmonorepo-sem-rel%40workspace%3A."],\
+            ["multi-semantic-release", "npm:2.12.0"],\
             ["semantic-release", "npm:19.0.2"]\
           ],\
           "linkType": "SOFT"\
@@ -1263,6 +1291,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/asap-npm-2.0.6-36714d439d-b296c92c4b.zip/node_modules/asap/",\
           "packageDependencies": [\
             ["asap", "npm:2.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["at-least-node", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/at-least-node-npm-1.0.0-2b36e661fa-463e2f8e43.zip/node_modules/at-least-node/",\
+          "packageDependencies": [\
+            ["at-least-node", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2228,6 +2265,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["graceful-fs", "npm:4.2.10"],\
             ["jsonfile", "npm:4.0.0"],\
             ["universalify", "npm:0.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:9.1.0", {\
+          "packageLocation": "./.yarn/cache/fs-extra-npm-9.1.0-983c2ddb4c-ba71ba32e0.zip/node_modules/fs-extra/",\
+          "packageDependencies": [\
+            ["fs-extra", "npm:9.1.0"],\
+            ["at-least-node", "npm:1.0.0"],\
+            ["graceful-fs", "npm:4.2.10"],\
+            ["jsonfile", "npm:6.1.0"],\
+            ["universalify", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3658,10 +3706,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["multi-semantic-release", [\
-        ["file:../multi-semantic-release#../multi-semantic-release::hash=35c80a&locator=%40tjjalava%2Fmonorepo-sem-rel%40workspace%3A.", {\
-          "packageLocation": "./.yarn/unplugged/multi-semantic-release-file-80a2704b8f/node_modules/multi-semantic-release/",\
+        ["npm:2.12.0", {\
+          "packageLocation": "./.yarn/cache/multi-semantic-release-npm-2.12.0-5a7842ed4d-3c96c87fbf.zip/node_modules/multi-semantic-release/",\
           "packageDependencies": [\
-            ["multi-semantic-release", "file:../multi-semantic-release#../multi-semantic-release::hash=35c80a&locator=%40tjjalava%2Fmonorepo-sem-rel%40workspace%3A."],\
+            ["multi-semantic-release", "npm:2.12.0"],\
             ["@manypkg/get-packages", "npm:1.1.3"],\
             ["blork", "npm:9.3.0"],\
             ["cosmiconfig", "npm:7.0.1"],\
