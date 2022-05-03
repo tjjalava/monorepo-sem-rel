@@ -1,7 +1,4 @@
-const plugins = [
-  '@semantic-release/commit-analyzer',
-  '@semantic-release/git'
-]
+const plugins = []
 
 module.exports = {
   plugins

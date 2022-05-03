@@ -1,7 +1,8 @@
 const plugins = [
+  '@semantic-release/npm',
   [
     '@semantic-release/git', {
-      assets: []
+      assets: ["!package.json"]
     }
   ]
 ]
